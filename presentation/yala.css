@@ -1,0 +1,91 @@
+nav ul{
+    list-style: none;
+    padding: 0;
+    
+  }
+  nav ul li{
+    display: inline;
+    margin-right: 20px;
+    
+  }
+  nav a{
+     text-decoration:none ;
+     color: #000;
+     font-weight: bold;
+  
+  }
+  section{
+    padding: 40px;
+  }
+  nav ul{
+    background: color #000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    margin: auto;
+  }
+  nav{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    justify-content: center;
+    display: flex;
+  
+  }
+  nav ul li{
+    border-right: 1px solid #bbb;
+    padding-right: 26.1px;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+  }
+  
+  nav ul li{
+    text-decoration:none;
+    color: black;
+    display: inline-block;
+    padding: 12px 12px;
+  
+  }
+  
+  li a:hover:not(.active){
+    background-color: #78b075;
+  }
+
+  #mode{
+    width: 100%;
+    height: auto;
+  }
+
+  #kkk{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30;
+}
+#rrr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#ooo{
+    font-size: 15px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 0.1px;
+    margin-left: 0.1;
+    margin-right: 0.1px;
+    font-family: sans-serif;
+  }
+  body{
+    background-image: url(/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }

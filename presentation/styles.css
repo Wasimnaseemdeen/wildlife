@@ -1,0 +1,155 @@
+nav ul{
+  list-style: none;
+  padding: 0;
+  
+}
+nav ul li{
+  display: inline;
+  margin-right: 20px;
+  
+}
+nav a{
+   text-decoration:none ;
+   color: #000;
+   font-weight: bold;
+
+}
+section{
+  padding: 40px;
+}
+nav ul{
+  background: color #000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  margin: auto;
+}
+nav{
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  justify-content: center;
+  display: flex;
+
+}
+nav ul li{
+  border-right: 1px solid #bbb;
+  padding-right: 26.1px;
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+nav ul li{
+  text-decoration:none;
+  color: black;
+  display: inline-block;
+  padding: 12px 12px;
+
+}
+
+lia:hover:not(.active){
+  background-color: #78b075;
+}
+
+body{
+  background-image: url(/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.content{
+  grid-area: auto;
+  width: 80%;
+  margin: auto;
+  background-image: url(/vecteezy_butter-scotch-color-background-with-grunge-texture_8129982.jpg);
+}
+#g{text-align: center;}
+#g{text-decoration: underline;}
+#m{text-align: center;}
+
+#container{border: 5px solid rgb(0,0,0);
+padding: 20px;
+width: 400px;
+text-align: center;
+border-radius: 10px;
+margin: auto;}
+
+#container1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+#img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+#img2{
+  width: 100%;
+  height: auto;
+}
+
+#table{
+  width: 100%;
+}
+#department{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px ;
+}
+#hello{
+  font-size: 15px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  border-radius: 0.1px;
+  margin-left: 0.1;
+  margin-right: 0.1px;
+  font-family: sans-serif;
+}
+
+
+.dept{
+  width: 100%;
+}
+.gallery-item{
+  flex:0 0 calc(33.33%-20px);
+  margin: 10px;
+  overflow:hidden;
+}
+
+.gallery-item img{
+  width: 30%;
+  height:auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition:transform 0.3s ease-in-out;
+
+}
+.gallery-item img:hover{
+  transform: scale(1.1);
+}
+#mad{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30;
+}
+#wild{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30;
+}
+
+#mild{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30;
+}
